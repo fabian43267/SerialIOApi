@@ -1,0 +1,7 @@
+{
+  "name": "SerialIOControl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

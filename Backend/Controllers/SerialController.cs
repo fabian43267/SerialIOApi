@@ -21,6 +21,6 @@ public class SerialController : ControllerBase
     public ActionResult SendCommand([FromBody] SerialCommand command)
     {
         _serialPortService.SendCommand(command);
-        return Ok();
+        return Ok(command);
     }
 }

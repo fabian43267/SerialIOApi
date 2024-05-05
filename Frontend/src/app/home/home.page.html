@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Serial IO Controller
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Serial IO Controller</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button (click)="turnBelueftungOn()">Belüftung an</ion-button>
+    <ion-button (click)="turnBelueftungOff()">Belüftung aus</ion-button>
+
+    <ion-button (click)="turnLichtOn()">Licht an</ion-button>
+    <ion-button (click)="turnLichtOff()">Licht aus</ion-button>
+  </div>
+</ion-content>
